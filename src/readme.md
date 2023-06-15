@@ -7,3 +7,10 @@ You may see many timestamp in your code, or your applications, but you cannot fi
 ## Compatibility
 It's compatible with `Python 3+`
 
+## Uage
+$ python3 time-time.py -s '1562490000.0'  -f utc_timestamp -t local_datetime
+2019-07-08 01:00:00
+
+$ python3 time-time.py -s '2023-03-02 16:00:00' -f time_str -t local_timestamp 
+1677744000.0
+
